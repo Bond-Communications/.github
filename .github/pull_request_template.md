@@ -1,19 +1,25 @@
 ## Summary
-Brief description of what this PR does and why.
 
-## Changes
-- Bullet points of specific changes
+<!-- What changed and why. Link the Jira ticket and any companion PRs in other repos. -->
 
 ## Testing
-How was this tested? What scenarios were verified?
 
-## Screenshots
-(If UI changes)
+<!--
+How you verified this, and steps a reviewer can follow: setup, feature flags, test data.
+Add screenshots or a recording for UI changes.
+-->
 
-## Checklist
-- [ ] Tests pass locally
-- [ ] No console.log or debug code
-- [ ] Documentation updated (if applicable)
-- [ ] Migration tested both directions (if applicable)
-- [ ] Verification steps included (how a reviewer can confirm this works)
-- [ ] PR title includes Jira ticket number
+## Rollout
+
+<!--
+Delete this section if nothing applies.
+- New env vars or secrets, and where they're set
+- Feature flags: name and default
+- Database migrations: tested up and down?
+- Deploy order across services (backend before clients)
+- Infra applies: which environments
+-->
+
+## Notes for reviewer
+
+<!-- Optional: risky areas, open questions, what to focus on. -->
